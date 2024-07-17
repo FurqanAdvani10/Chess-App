@@ -1,0 +1,112 @@
+/* Add this to your existing CSS */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(55, 55, 55, 0.94);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.navbar.scrolled {
+    background-color: #000000;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid #02baac;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.contact-number {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.navbar-logo > img {
+    height: 65px;
+}
+.menu-icon {
+    display: none;
+}
+
+/* Media Query for mobile view */
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #000000af;
+        transition: all 0.5s;
+    }
+    .nav-item{
+        margin: 0;
+    }
+    .nav-item a {
+        font-size: 13px;
+        margin: 5px 0;
+        padding: 10px 13px;
+    }
+    .navbar-logo > img {
+        height: 45px;
+    }
+
+    .navbar-nav.show {
+        display: flex;
+    }
+
+    .navbar-icons {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+@media (min-width :768px) and (max-width : 991px){
+    .navbar-icons {
+        display: none;
+    }
+}

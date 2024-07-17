@@ -1,0 +1,77 @@
+.vision-img img {
+    width: 450px;
+    object-fit: contain;
+}
+.vision-img {
+    display: flex;
+    justify-content: center;
+}
+.vision-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vision-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 50px 50px 50px 50px;
+}
+.vision-headings h4{
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.vision-headings h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.vision-para{
+    margin-top: 20px;
+}
+
+.vision-para p{
+  font-size: 17px;
+  font-weight: 300;
+}
+@media  (max-width: 767px)  {
+    .vision-img img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .vision-para p{
+        font-size: 13px;
+        font-weight: 300;
+      }
+      .vision-headings h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .vision-headings h4{
+        font-size: 11px;
+        font-weight: 400;
+        color: gray;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .vision-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin: 0px;
+    }
+    .vision-content{
+        margin-block:20px ;
+    }
+}
+
+
+@media (min-width :768px) and (max-width : 991px){
+    
+}
+@media (min-width : 992px) and (max-width : 1199px){}

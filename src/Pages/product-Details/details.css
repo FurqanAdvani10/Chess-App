@@ -1,0 +1,167 @@
+
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  
+  .swiper {
+    width: 100%;
+    height:100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100% !important;
+    height: auto ;
+    object-fit: contain;
+  }
+  .swiper {
+    width: 100%;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .mySwiper2 {
+    height: auto !important;
+    width: 100%;
+  }
+  
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+
+  /*  */
+ .details-info {
+  padding-top: 40px;
+ }
+ .pro-name h1  {
+    font-size: 45px !important;
+    font-weight: 300;
+    margin: 0px !important;
+    padding: 0px;
+ }
+ .pro-price-tax {
+  padding-top: 20px;
+ }
+ .pro-price-tax > h4 {
+  font-size: 20px;
+  font-weight: 300;
+ }
+ .pro-price-tax > P {
+  font-size: 18px;
+  font-weight: 300;
+ }
+ .pro-add-info > button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    background-color: black;
+    color: #fff;
+ }
+ .pro-details{
+  padding-block: 20px;
+ }
+ .pro-details ul{
+  margin: 0px !important;
+}
+ .pro-details ul li{
+    font-size: 17px;
+    font-weight: 300;
+ }
+ .faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 16px;
+  /* border-radius: 8px; */
+  border: 1px solid rgba(0, 0, 0, 0.372);
+  padding: 0px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.question {
+  padding: 10px 0px;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 5px;
+  align-items: center;
+}
+
+.answer {
+  padding: 0 0px 16px 0px;
+  display: block;
+  font-size: 15px;
+  color: #838383;
+}
+@media  (max-width: 767px)  {
+  .mySwiper {
+    display: none;    
+  }
+  .answer {
+    padding: 0 0px 12px 0px;
+    font-size: 12px;
+    color: #838383;
+  }
+  .question{
+    font-size: 13px;
+  }
+  .pro-name h1  {
+    font-size: 30px !important;
+    font-weight: 300;
+    margin: 0px !important;
+    padding: 0px;
+ }
+ .pro-details ul li{
+  font-size: 14px;
+  font-weight: 300;
+}
+.pro-price-tax > h4 {
+  font-size: 15px;
+  font-weight: 300;
+ }
+ .pro-price-tax > P {
+  font-size: 13px;
+  font-weight: 300;
+ }
+}

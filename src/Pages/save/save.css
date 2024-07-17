@@ -1,0 +1,126 @@
+.save-main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.save-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+}
+.save-heading{
+    text-align: center;
+}
+.save-heading h2 {
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.save-heading p{
+    font-size: 16px;
+    color: rgb(192, 191, 191);
+    /* margin-block: 20px !important; */
+    margin: 0px !important; 
+    padding-block: 20px !important;
+}
+.save-ipt {
+    padding-top: 5px !important;
+}
+/* .save-ipt  input{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px 0px 0px 8px;
+    width: 300px;
+}
+.save-ipt button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #02baac;
+    color: aliceblue;
+    font-size: 16px;
+    word-spacing: 8cqb;
+} */
+.mb-3{
+    margin: 0px !important;
+}
+.sub-footer-input{
+    /* margin-top: 2px; */
+    min-width: 400px;
+    border-radius:  8px;
+    color: #8c8c8c;
+    border: none !important;
+    background-color: transparent !important;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.input-button{
+
+    border-radius: 10px;
+    background-color: #000000;
+    padding: 7px 30px;
+    color: #fff;
+    border: none;
+}
+.input-button:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.input-button  a{
+    padding: 40px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.input-group{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px;
+}
+.form-control:focus{
+    outline: none !important;
+}
+.input-group>.form-control, .input-group>.form-floating, .input-group>.form-select{
+height: 50px;
+width: 350px;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: calc(var(--bs-border-width) * -1);
+    border-top-left-radius: 8px;
+    outline: none;
+    border: none;
+    border-bottom-left-radius: 8px;
+}
+.form-control{
+    box-shadow: none !important;
+}
+@media  (max-width: 767px)  {
+
+.save-ipt button{
+    font-size: 10px;
+
+}
+.input-group{
+    flex-direction: column;
+}
+.sub-footer-input{
+    width: 100% !important;
+    font-size: 13px;
+}
+.save-ipt{
+    width: 100%;
+}
+.save-heading h2{
+    font-size: 30px;
+}
+.save-heading p{
+    font-size: 13px;
+}
+}
